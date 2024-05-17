@@ -1,6 +1,7 @@
 package com.ifs21010.glostandfound.activity
 
 import android.app.Activity
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.ImageView
@@ -119,6 +120,7 @@ class SetProfilePictActivity : AppCompatActivity() {
                             Toast.LENGTH_LONG
                         ).show()
                         finish()
+                        startActivity(Intent(this@SetProfilePictActivity, HomeActivity::class.java))
                     } else {
                         Toast.makeText(
                             this@SetProfilePictActivity,
