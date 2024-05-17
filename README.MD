@@ -4,4 +4,4 @@ Project ini adalah project Lost & Found yang dibuat oleh mahasiswa Informatika 2
 
 <br>
 
-Video penjelasan bisa dilihat <a>disini</a>.
+Video penjelasan bisa dilihat <a href="https://youtu.be/ds6ZAtanKv0" target="_blank">disini</a>.
